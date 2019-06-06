@@ -1,0 +1,260 @@
+ Which of the following is not type of Maven Repository?
+A. Local B. Remote C. Maven Central D. Maven Local
+View AnswerWorkspaceReportDiscuss
+Answer & Explanation
+Answer: Option D
+
+2. Which of the following command removes the target directory with all the build data before starting the build process?
+A. mvn clean B. mvn build C. mvn compile D. mvn site
+View AnswerWorkspaceReportDiscuss
+Answer & Explanation
+Answer: Option A
+
+3. ___________ is an ExpectationErrorTranslator that doesn’t do any translation.
+A. AssertionErrorTranslator B. CamelCaseNamingScheme C. CurrentStateMatcher D. IdentityExpectationErrorTranslator
+View AnswerWorkspaceReportDiscuss
+Answer & Explanation
+Answer: Option D
+
+Which of the following is not a maven goal?
+A. clean B. package C. install D. debug
+View AnswerWorkspaceReportDiscuss
+Answer & Explanation
+Answer: Option D
+
+ Which of the following is not a dependency scope in Maven?
+A. Compile B. Test C. System D. Export
+View AnswerWorkspaceReportDiscuss
+Answer & Explanation
+Answer: Option D
+
+Which of the following phase-in maven lifecycle performs actions required after integration tests have been executed? For example, cleaning up the environment
+A. post-integration-test B. pre-integration-test C. integration-test D. None of the above
+View AnswerWorkspaceReportDiscuss
+Answer & Explanation
+Answer: Option A
+
+Which of the following is not true for Ant?
+A. It is a tool box B. It provides lifecycle management C. It is procedural D. It doesnt have formal conventions
+View AnswerWorkspaceReportDiscuss
+Answer & Explanation
+Answer: Option B
+
+. How do I determine which POM contains missing transitive dependency?
+A. mvn -A B. mvn -M C. mvn -R D. mvn -X
+View AnswerWorkspaceReportDiscuss
+Answer & Explanation
+Answer: Option D
+
+3) Mention the three build lifecycle of Maven?
+
+• Clean: Cleans up artifacts that are created by prior builds
+• Default (build): Used to create the application
+• Site: For the project generates site documentation
+
+2) List out what are the aspects does Maven Manages?
+
+Maven handles following activities of a developer
+
+• Build
+• Documentation
+• Reporting
+• Dependencies
+• SCMs
+• Releases
+• Distribution
+• Mailing list
+
+5) Explain what is Maven artifact?
+
+Usually an artifact is a JAR file which gets arrayed to a Maven repository. One or more artifacts a maven build produces such as compiled JAR and a sources JAR.
+
+Each artifact includes a group ID, an artifact ID and a version string.
+
+6) Explain what is Maven Repository? What are their types?
+
+A Maven repository is a location where all the project jars, library jars, plugins or any other particular project related artifacts are stored and can be easily used by Maven.
+
+Their types are local, central and remote
+
+7) Why Maven Plugins are used?
+
+Maven plugins are used to
+• Create a jar file
+• Create war file
+• Compile code files
+• Unit testing of code
+• Documenting projects
+• Reporting
+
+13) List out what are the build phases in Maven?
+
+Build phases in Maven are
+
+• Validate
+• Compile
+• Test
+• Package
+• Install
+• Deploy
+
+14) List out the build, source and test source directory for POM in Maven?
+
+• Build = Target
+• Source = src/main/java
+• Test = src/main/test
+
+15) Where do you find the class files when you compile a Maven project?
+
+You will find the class files ${basedir}/target/classes/.
+
+16) Explain what would the “jar: jar” goal do?
+
+jar: jar will not recompile sources; it will imply just create a JAR from the target/classes directory considering that everything else has been done
+
+17) List out what are the Maven’s order of inheritance?
+
+The maven’s order of inheritance is
+
+• Parent Pom
+• Project Pom
+• Settings
+• CLI parameters
+
+18) For POM what are the minimum required elements?
+
+The minimum required elements for POM are project root, modelVersion, groupID, artifactID and version
+
+19) Explain how you can produce execution debug output or error messages?
+
+To produce execution debug output you could call Maven with X parameter or e parameter
+
+20) Explain how to run test classes in Maven?
+
+To run test classes in Maven, you need surefire plugin, check and configure your settings in setting.xml and pom.xml for a property named “test.”
+
+Q2. How do I determine which POM contains missing transitive dependency?
+
+a. mvn -A
+b. mvn -M
+c. mvn -R
+d. mvn -X
+show Answer 
+
+Ans. mvn -X
+
+Q3. What is the sequence in which Maven looks for the resources ?
+
+a. Remote-> Maven Central - > Local
+b. Local -> Remote - Maven Central
+c. Remote-> Local -> Maven Central
+d. Maven Central -> Local -> Remote
+show Answer 
+Local -> Remote - Maven Central
+
+Q5. Which of the following is not type of Maven Repository ?
+
+a. Local
+b. Remote
+c. Maven Central
+d. Maven Local
+show Answer 
+
+Ans. Maven Local
+
+Q6. What is the default location of local repository ?
+
+a. ~/.m2/repo
+b. ~/m2./home/repository
+c. ~/m2./repository
+d. ~/m2./home/repo
+show Answer 
+
+Ans. ~/m2./repository
+
+Q7. Which of the following is not type of Maven Plugin ?
+
+a. Build
+b. Reporting
+c. Remote
+d. All are valid Maven Plugin types
+show Answer 
+
+Ans. Remote
+
+Q8. Which of the following is not a dependency scope in Maven ?
+
+a. Compile
+b. Test
+c. System
+d. Export
+show Answer 
+
+Ans. Export
+
+Q9. What is a project's fully qualified artifact name?
+
+a. ::
+b. :
+c. ::
+d. :
+show Answer 
+
+Ans. ::
+
+2. Which of the following is not a maven goal?
+a) clean
+b) package
+c) install
+d) debug
+View Answer
+
+Answer: d
+
+
+3. Which file is used to define dependency in maven?
+a) build.xml
+b) pom.xml
+c) dependency.xml
+d) version.xml
+View Answer
+
+Answer: b
+
+4. Which file is used to specify the packaging cycle?
+a) build.xml
+b) pom.xml
+c) dependency.xml
+d) version.xml
+View Answer
+
+Answer: a
+
+5. Which environment variable is used to specify the path to maven?
+a) JAVA_HOME
+b) PATH
+c) MAVEN_HOME
+d) CLASSPATH
+View Answer
+
+Answer: c
+
+8. Which command can be used to check maven version?
+a) mvn -ver
+b) maven -ver
+c) maven -version
+d) mvn -version
+View Answer
+
+Answer: d
+
+10. Which maven plugin creates the project structure?
+a) dependency
+b) properties
+c) archetype
+d) execution
+View Answer
+
+Answer: c
+
+
